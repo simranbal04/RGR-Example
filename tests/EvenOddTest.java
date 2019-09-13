@@ -23,8 +23,10 @@ public class EvenOddTest {
 //	R4: If n is odd, return false
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testEvenOddFuncion() {
+//		fail("Not yet implemented");
+		EvenOdd e = new EvenOdd();
+				assertEquals(true,e.isEven(25));
 	}
 
 }
