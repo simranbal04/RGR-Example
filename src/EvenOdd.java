@@ -9,6 +9,14 @@ public class EvenOdd {
 	public EvenOdd() {}
 	
 	public boolean isEven(int n) {
-		return true;
+//		return true;
+		
+		if(n<1)
+		{
+			return false;
+		}
+		else {
+			return true;
+		}
 	}
 }
